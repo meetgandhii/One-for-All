@@ -1,0 +1,36 @@
+div.redirect_div {
+    cursor: pointer;
+}
+
+img.about_img {
+    width: 200px;
+    height: 333px;
+}
+.about_img_div{
+    width: 450px;
+    height: 450px;
+    opacity: 0.5;
+    filter: blur(100%);
+    filter: contrast(5%);
+
+}
+.about_img_div:hover{
+    filter: blur(0%);
+    filter: contrast(100%);
+    opacity: 1;
+    /* border: 5px solid #2F4858; */
+    /* border-radius: 1000px; */
+    transition: 2.5s;
+}
+.about_col {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title_in_proj{
+    color: #616478;
+    font-weight: 500;
+}
+.name_in_proj{
+    color: #2F4858;
+}

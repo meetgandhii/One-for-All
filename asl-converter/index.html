@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ASL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="./microphone_ability/speech-input.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>ASL Converter</h1>
+      </div>
+
+
+
+
+
+      <div class="col-12 text-center">
+        <h2>English to ASL</h2>
+      </div>
+      <div class="col-12">
+        <p>Enter text below for it to be translated into ASL. Spaces will be translated as blank spaces, however,
+          other characters that are not English letters cannot be displayed.</p>
+      </div>
+      <div id="containBraille" class="col-12 text-center">
+      </div>
+      <div class="col-12 text-center">
+        <input type='text' id='fname' class='speech-input chatinput' data-patience="0.2" data-instant-submit
+          onkeyup="annotate()" placeholder="Enter text here...">
+        <div id='printchatbox'></div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+<script src="./microphone_ability/speech-input.js"></script>
+<script src="js/main.js" charset="utf-8"></script>
+
+</html>
