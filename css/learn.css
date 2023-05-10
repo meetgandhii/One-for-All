@@ -1,0 +1,95 @@
+.learn-options-opt,
+.language-options-opt {
+    float: left;
+    border-radius: 10000px;
+    border: 2px solid #707070;
+    width: 10%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.learn-options-opt:hover,
+.language-options-opt:hover {
+    background-color: #808080;
+    border: 2px solid #808080;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.learn-options,
+.language-options {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.active {
+    background-color: #606060 !important;
+    color: #ffffff !important;
+}
+
+.inactivee {
+    display: none;
+}
+
+.card {
+    background-color: rgba(254, 244, 236, 0.7);
+    border-radius: 50px;
+    margin: 2.5% 0;
+    padding: 1% 1%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px 10px;
+}
+
+@font-face {
+    font-family: aslFont;
+    src: url(../GallaudetRegular.ttf);
+}
+
+.questions {
+    font-family: aslFont;
+    font-size: 5em;
+}
+
+td {
+    text-align: center;
+}
+
+.srno {
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin: 10px 5px;
+}
+
+input {
+    margin: 0 15px;
+}
+
+#finalScore,
+#finalScore_b {
+    display: flex;
+    justify-content: center;
+    margin: 15px 10px 10px 10px;
+}
+
+.tableStyle {
+    margin-left: auto;
+    margin-right: auto;
+}
