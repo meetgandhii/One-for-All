@@ -65,6 +65,7 @@ function show_image(src, id) {
   img.src = src;
   img.width = 80;
   img.height = 110;
+  img.classList = "brailleImg";
 
   el.appendChild(img);
 }

@@ -68,10 +68,15 @@
       </div>
       <div id="containBraille" class="col-12 text-center">
       </div>
+      
+      
       <div class="col-12 text-center">
         <input id="textIn" class="mb-3 speech-input" data-patience="0.2" data-instant-submit type="text"
           placeholder="Enter text here...">
       </div>
+      <canvas id="myCanvas" width="0" height="0" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML canvas tag.</canvas>
+      <p><button onclick="myCanvas()">print it</button></p>
     </div>
   </div>
 
@@ -80,5 +85,6 @@
 </body>
 <script src="./microphone_ability/speech-input.js"></script>
 <script src="js/main.js" charset="utf-8"></script>
+<script src="js/export.js"></script>
 
 </html>
