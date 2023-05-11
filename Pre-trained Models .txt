@@ -1,0 +1,38 @@
+Pre-trained Models : 
+
+
+VGG-16 : It is one of the most popular and influential CNN architectures to date. The VGG-16 architecture is composed of 16 layers, including 13 convolutional layers and 3 fully connected layers. It uses small 3x3 filters throughout the convolutional layers, with stride 1 and padding 1, and max-pooling layers with 2x2 filters and stride 2. The architecture is characterized by its deep and narrow structure, which results in a large number of parameters. The VGG-16 model was trained on the ImageNet dataset, which consists of over 1 million labeled images in 1,000 categories. The model achieved state-of-the-art performance on the ImageNet classification task at the time of its introduction.The pre-trained weights of the VGG-16 model are available for download and have been widely used in various computer vision applications, such as image classification, object detection, and semantic segmentation. The model has also been used as a feature extractor for transfer learning, where the pre-trained convolutional layers are used to extract features from images for other downstream tasks.
+
+Why is VGG-16 superior to rest of the models for ASL detection :
+The VGG-16 model has several advantages that make it a good choice for ASL detection:
+1. High accuracy: The VGG-16 model achieved state-of-the-art performance on the ImageNet classification task at the time of its introduction, indicating that it is a highly accurate model for image classification tasks.
+2. Large number of parameters: The VGG-16 model has a large number of parameters, which allows it to learn complex features from images and capture subtle differences between different hand gestures.
+3. Pre-trained weights: The pre-trained weights of the VGG-16 model are available for download, which saves time and computational resources for training the model from scratch.
+4. Availability of transfer learning: The pre-trained convolutional layers of the VGG-16 model can be used as a feature extractor for transfer learning, where the model can be fine-tuned on a smaller dataset of ASL images to improve its accuracy on the specific task.
+
+Overall, the VGG-16 model is a strong candidate for ASL detection due to its high accuracy, large number of parameters, availability of pre-trained weights, and suitability for transfer learning.
+
+
+
+VGG-19 : VGG-19 is a convolutional neural network (CNN) architecture that is similar to VGG-16 but with deeper layers. 
+VGG-19 is a convolutional neural network (CNN) architecture that is similar to VGG-16 but with deeper layers. Like VGG-16, VGG-19 was introduced by the Visual Geometry Group at the University of Oxford in 2014.The VGG-19 architecture is composed of 19 layers, including 16 convolutional layers and 3 fully connected layers. It uses small 3x3 filters throughout the convolutional layers, with stride 1 and padding 1, and max-pooling layers with 2x2 filters and stride 2.
+
+Why not : VGG-19 is heavier and slower becuase of it's buling layers and the data used to train it. VGG-19 may lead to overfitting owing to the model's depth. VGG-16 is much more practicle  due to it's wide use, lightness and faster architecture. VGG-19 can be a potential user for asl.
+
+
+
+Inception : Inception is a convolutional neural network (CNN) architecture that was introduced by Google researchers in 2014. The Inception model is designed to be more computationally efficient than earlier CNN models while maintaining high accuracy.The Inception architecture uses a combination of convolutional layers with different filter sizes, max-pooling layers, and parallel branches of convolutional layers with different filter sizes and pooling operations. This allows the model to capture features at different scales and resolutions
+
+Why not : Firstly, the Inception architecture is designed to capture features at different scales and resolutions, which can be useful for recognizing fine-grained details in images. However, in the case of ASL detection, the hand gestures are typically large and occupy a significant portion of the image, so capturing features at different scales and resolutions may not be as important. Secondly, the Inception architecture is relatively complex and computationally expensive, which may make it more difficult to deploy on resource-constrained devices, such as smartphones or embedded systems. ASL detection is a common use case for these types of devices, and simpler models may be more appropriate for this task.
+
+
+
+ResNet-50 : ResNet-50 is a convolutional neural network (CNN) architecture that was introduced by Microsoft researchers in 2015. The "ResNet" name stands for "Residual Network", which refers to the use of residual connections or "skip connections" to enable the training of very deep neural networks. The ResNet-50 architecture consists of 50 layers, including convolutional layers, pooling layers, and fully connected layers. The key innovation of ResNet-50 is the use of residual connections between layers. 
+
+Why not : It is a complex model and training on our data becomes difficult for optimization especially working with smaller dataset. Overfitting can be an issue and may not recognize new data from smaller datasets. Speed can be a major concern and vgg-16 which is lighter way better.
+
+
+
+
+
+
