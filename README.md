@@ -19,7 +19,7 @@ This is a web application that allows users to convert English text into Braille
 - Braille Unicode for Braille conversion
 
 ## How to Use
-- Visit our website at [https://www.one-for-all](https://one-for-all.onrender.com/)
+- Visit our website at [One For All](https://one-for-all.onrender.com/)
 - Navigate to the products section to use the desired feature.
 - Select the conversion type (Braille or ASL).
 - Click the "Convert" button to see the results.
