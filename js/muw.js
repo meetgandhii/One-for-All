@@ -1047,7 +1047,7 @@ for (row = 0; row < commonWordList.length; row++) {
     tr.appendChild(td);
     td.innerHTML = ""
     for (row1 = 0; row1 < commonWordList[row].length; row1++) {
-        td.innerHTML += '<img width = "80" height = "110" src = ' + display_braille[row][row1] + '>';
+        td.innerHTML += '<img width = "80" height = "110" src = ' + display_braille[row][row1].toLowerCase() + '>';
     }
 
     td = document.createElement('td');
