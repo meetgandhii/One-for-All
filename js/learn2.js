@@ -3439,7 +3439,7 @@ for (row = 0; row < 26; row++) {
     td.classList.add('srno')
     td = document.createElement('td');
     tr.appendChild(td);
-    td.innerHTML = '<img width = "80" height = "110" src = "./braille-converter/imgs/'+alphabet.toLowerCase()+'.png">';
+    td.innerHTML = '<img width = "80" height = "110" src = "./braille-converter/imgs/'+alphabet.toLowerCase() +'.png">';
     td = document.createElement('td');
     tr.appendChild(td);
     td.innerHTML = alphabet;
