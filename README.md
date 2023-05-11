@@ -25,4 +25,4 @@ This is a web application that allows users to convert English text into Braille
 - Click the "Convert" button to see the results.
 
 ## Credits
-This project was created by [Meet Gandhi](https://www.linkedin.com/in/meetgandhii/), [Sanjeet Naik](https://www.linkedin.com/in/sanjeetnnaik/) and [Samriddhi Singhai](https://www.linkedin.com/in/samriddhi-singhai-7091361a9/) as part of [Last Year Project](https://one-for-all.onrender.com/) at [KJSCE]. We would like to thank [Prof. Gopal Sonune] for their support.
+This project was created by [Meet Gandhi](https://www.linkedin.com/in/meetgandhii/), [Sanjeet Naik](https://www.linkedin.com/in/sanjeetnnaik/) and [Samriddhi Singhai](https://www.linkedin.com/in/samriddhi-singhai-7091361a9/) as part of [Last Year Project](https://one-for-all.onrender.com/) at [KJSCE](https://kjsce.somaiya.edu/en). We would like to thank Prof. Gopal Sonune for their support.
