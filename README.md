@@ -9,7 +9,8 @@ This is a web application that allows users to convert English text into Braille
 - ASL to English conversion
 - Braille to ASL conversion
 - ASL to Braille conversion
-- Ability to play ASL videos to learn sign language
+- Ability to learn sign and braille language
+- Option to give tests in order to gauge the understanding
 - User-friendly interface
 
 ## Technologies Used
